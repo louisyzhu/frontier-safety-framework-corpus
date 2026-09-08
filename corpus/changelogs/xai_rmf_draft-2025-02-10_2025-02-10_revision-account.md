@@ -1,0 +1,1 @@
+NA (first version; no predecessor). Announcement: none (checked: x.ai/news CDX listing via Wayback, x.ai/news/safety Wayback 20250814140938 returns 404, x.ai/safety Wayback captures 20250828090312/20260203002028/20260405054622/20260815221302, web search; only third-party X posts of 10-11 February 2025 link the draft).

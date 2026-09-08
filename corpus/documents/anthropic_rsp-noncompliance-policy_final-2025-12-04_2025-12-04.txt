@@ -1,0 +1,379 @@
+
+[[page 1]]
+
+
+
+## RSP Noncompliance Reporting and
+## Anti-Retaliation Policy
+
+
+## Table of Contents
+
+Purpose................................................................................................................................................................ 2
+
+Scope.....................................................................................................................................................................2
+
+Roles and Responsibilities.............................................................................................................................. 2
+
+What Can be Reported....................................................................................................................................3
+
+Procedure for Submitting Conﬁdential Complaints............................................................................4
+
+Reporting Channels.............................................................................................................................. 4
+
+Conﬁdentiality Protections.................................................................................................................4
+
+Report Content & Documentation....................................................................................................4
+
+Investigation Process............................................................................................................................5
+
+Case Management & Reporting......................................................................................................... 5
+
+Anti-Retaliation Policy..................................................................................................................................... 5
+
+Compliance............................................................................................................................................................6
+
+Exceptions...........................................................................................................................................................6
+
+Violations & Enforcement..............................................................................................................................6
+
+Document History............................................................................................................................................6
+
+
+
+
+
+[[page 2]]
+
+
+RSP Noncompliance Reporting and Anti-Retaliation Policy
+
+
+## Purpose
+
+Anthropic is committed to complying with our Responsible Scaling Policy ("RSP").
+This policy establishes a mechanism for reporting potential RSP noncompliance and
+protects individuals who make good-faith reports from retaliation.
+
+## Scope
+
+Below is the process by which employees may report concerns about RSP
+noncompliance and what they can expect during the process. The Company will not
+tolerate harassment, retaliation, or reprisals of any kind against any employee who
+has, in good faith, protested or raised a concern regarding a company policy or
+practice that does not comply with the RSP or reported a reasonable suspicion that
+someone connected with Anthropic has engaged in conduct that does not comply
+with the RSP.
+
+While this policy is speciﬁcally written for Anthropic employees and Board
+members, we expect members of our extended workforce (including, but not
+limited to, vendors and independent contractors) and others who may be
+temporarily assigned to perform work or services for Anthropic to be apprised of
+the RSP. To this end, we encourage such individuals to report concerns regarding
+RSP noncompliance. Anthropic will take seriously all conversations, calls, and
+reports made in good faith under this policy.
+
+## Roles and Responsibilities
+
+The successful implementation of this policy requires collaboration and
+commitment from various roles across the organization. These are the unique
+responsibilities beyond our standard requirements for ensuring success of this
+policy.
+
+Role
+Responsibilities
+
+Responsible Scaling
+Ofﬁcer
+
+●
+Receive and investigate reports of RSP noncompliance
+●
+Maintain conﬁdentiality of reports and reporters
+
+
+Page 2
+
+
+
+[[page 3]]
+
+
+RSP Noncompliance Reporting and Anti-Retaliation Policy
+
+
+Role
+Responsibilities
+
+●
+Ensure timely Board reporting of noncompliance reports as
+required by RSP
+
+Managers
+●
+Create an environment where Anthropic personnel feel safe to
+report concerns
+●
+Never engage in or tolerate retaliation against reporters
+
+Employees and
+Contingent Workers
+
+●
+Report suspected RSP noncompliance through appropriate
+channels
+●
+Provide detailed information when submitting concerns
+
+Legal Team
+●
+Support policy interpretation and implementation
+●
+Assist in policy compliance monitoring
+
+People Team
+●
+Support managers and employees in understanding this policy
+●
+Handle reports of retaliation related to RSP noncompliance
+reporting
+●
+Coordinate with the RSO on related employee matters
+●
+Maintain conﬁdentiality of sensitive information
+
+## What Can be Reported
+
+This policy and process applies to employees who raise good-faith concerns
+relating to RSP noncompliance only. This policy is not intended to address every
+concern that may arise in the workplace. Employees should be aware that
+Anthropic has other policies and procedures and available channels of
+communication for reporting certain concerns that may not be covered by this
+policy and/or that may be more appropriate mechanisms for addressing such
+concerns, including those mandated by Anthropic’s anti-discrimination and
+harassment policies, or policies for suspected fraud or violation of regulations.
+When appropriate or legally required, some issues initially received through the
+RSP policy reporting mechanism may be investigated and remedied in a manner
+that is more consistent with the speciﬁc procedure applicable to that policy. If you
+are not clear about which channel to use, please check-in with your manager or
+HRBP. Please also note that conﬁdentiality and anonymity can only be guaranteed
+for RSP noncompliance concerns shared within the Navex reporting tool.
+
+
+Page 3
+
+
+
+[[page 4]]
+
+
+RSP Noncompliance Reporting and Anti-Retaliation Policy
+
+
+## Procedure
+## for
+## Submitting
+## Conﬁdential
+## Anonymous
+## Complaints
+
+## Reporting Channels
+
+Employees may submit concerns and information regarding RSP noncompliance to
+the Responsible Scaling Ofﬁcer (“RSO”) (or delegate) via
+. Our Safety &
+Compliance Report Hotline is powered by Navex EthicsPoint, our trusted
+third-party partner. Access via:
+
+○ Web Intake Site:
+○ Mobile Intake Site:
+○ Call toll-free:
+(United States)
+■ Belgium:
+■ Canada:
+■ France:
+■ Ireland:
+■ Japan:
+■ Korea, Republic of South:
+■ Netherlands:
+■ Switzerland:
+■ United Kingdom:
+■ United States:
+
+If a concern relates to conduct by the RSO, the report will be sent instead to the
+President for review.
+
+
+## Conﬁdentiality Protections
+
+The reporting system is designed to protect reporter conﬁdentiality. Anthropic
+cannot unmask the identity of any reporter. The system allows anonymous
+
+
+Page 4
+
+
+
+[[page 5]]
+
+
+RSP Noncompliance Reporting and Anti-Retaliation Policy
+
+
+correspondence with the RSO (or delegate) about reports throughout the
+investigation.
+
+## Report Content & Documentation
+
+When submitting a concern, employees should provide as much detailed
+information as possible, including background, history, names, dates, places, and
+the speciﬁc RSP violation suspected. While comprehensive information aids
+investigation, sensitive code or protected technical details should not be included
+in reports.
+
+All conversations, calls, and reports made in good faith under this policy will be
+taken seriously. Since the system is designed to protect the identities of employees,
+the integrity of this system depends on employees following this policy in good
+faith and not ﬁling reports that are intentionally false or those they know do not
+involve conduct related to noncompliance with the RSP.
+
+## Investigation Process
+
+The RSP Operations Lead or Legal Counsel will act as Navex Case Manager to
+initiate the review and response process for any noncompliance reports, gathering
+relevant background information if needed before referring them to the RSO (or
+President, as applicable) for review and dispositioning. The RSO (or the President,
+as applicable) will determine appropriate initial inquiries to decide whether an
+investigation is necessary and, if so, its form and scope. An investigation does not
+suggest that the concerns have been conﬁrmed or rejected. The nature and severity
+of the concern will determine the RSO's actions during any investigation.
+
+## Case Management & Reporting
+
+All case reports submitted through the
+are maintained on a secure
+third-party reporting platform, accessible only to the Navex Case Manager, RSO,
+President (if applicable), and any authorized delegates. The RSO cannot access
+reporter identity unless the reporter chooses to attach their name to the report.
+
+
+Page 5
+
+
+
+[[page 6]]
+
+
+RSP Noncompliance Reporting and Anti-Retaliation Policy
+
+
+The RSO provides periodic updates to the board regarding all RSP noncompliance
+cases and developments.
+
+## Anti-Retaliation Policy
+
+Anthropic encourages employees to come forward with concerns and will not
+tolerate retaliation or harassment against employees who raise a good-faith
+concern under this policy. Employees who believe that they have been subjected to
+any conduct that violates the non-retaliation policy should reach out to their
+manager or HRBP. Any employee who retaliates against another employee as a
+result of raising a concern under this policy may be subject to corrective action
+including termination of employment.
+
+External Reporting
+
+While we encourage internal reporting and we hope you'll come to us ﬁrst, nothing
+in this policy or any other Anthropic agreement or policy prohibits you from
+reporting potential violations of law to appropriate government authorities without
+Anthropic's authorization and without retaliation.
+
+When reporting concerns externally, employees should make every effort to avoid
+unnecessarily disclosing conﬁdential information. Focus on communicating the
+nature of the concern without publicly revealing speciﬁc technical details, HIPI
+trade secrets, or proprietary information.
+
+Our No Retaliation Policy
+
+Anthropic prohibits retaliation against those who, in good faith, engage in a
+protected activity.
+
+A "good faith" report means that you have a reasonable belief that your allegation
+could be true and the report is not being made with malicious intent. It does not
+mean that you must know with certainty that an allegation is true.
+
+What is a Protected Activity?
+
+
+Page 6
+
+
+
+[[page 7]]
+
+
+RSP Noncompliance Reporting and Anti-Retaliation Policy
+
+
+A protected activity is any action taken that is protected by law against retaliation.
+Protected activities include, but are not limited to:
+
+● Reporting or raising concerns in good faith through internal channels about
+known or suspected violations of the RSP
+● Participating in an internal investigation
+● Refusing to engage in activities you reasonably believe to be in violation of
+the RSP
+● Acting as a whistleblower by reporting concerns in good faith to statutorily
+authorized government authorities or regulatory agencies
+
+What is Retaliation?
+
+Retaliation is any adverse action taken against an employee because they reported a
+problem, refused to engage in unlawful activity, or participated in an investigation.
+Retaliation is not always obvious. It can include:
+
+● Job loss, pay cuts or reduced hours
+● Denying overtime, promotion, or beneﬁts
+● Limiting career growth (e.g. keeping you out of important meetings or
+reassigning projects)
+● Disciplinary actions
+● Failing to hire, or telling other prospective employers not to hire you
+● Intimidation or making threats
+● More subtle actions, such as isolating, ostracizing, mocking, or falsely
+accusing you of poor performance
+● Hindering any earned beneﬁts
+
+## Compliance
+
+Anthropic will measure and verify compliance to this policy through various
+methods, including but not limited to ongoing monitoring, and both internal and
+external reviews.
+
+
+Page 7
+
+
+
+[[page 8]]
+
+
+RSP Noncompliance Reporting and Anti-Retaliation Policy
+
+
+## Exceptions
+
+Requests for an exception to this policy must be submitted via the
+for approval.
+
+## Violations & Enforcement
+
+Any known violations of this policy should be reported to the Policy Owner,
+Executive Sponsor, or other appropriate members of Anthropic's Senior Leadership
+through the appropriate
+. Violations can result in immediate
+withdrawal or suspension of system and network privileges and/or disciplinary
+action in accordance with company procedures including termination of
+employment.
+
+
+Page 8
+

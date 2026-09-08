@@ -1,0 +1,1 @@
+NA (first version; no predecessor). Announcement: https://www.navercorp.com/media/pressReleasesDetail?seq=31855 (Korean press release dated 2024-06-17, title '네이버, AI 안전성 실천 체계 공개…안전한 소버린 AI 생태계 구축한다').

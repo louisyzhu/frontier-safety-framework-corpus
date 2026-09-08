@@ -1,0 +1,1 @@
+NA (first version; no predecessor). Announcement: none (no dated RSP page entry announces this file; it was linked from https://www.anthropic.com/rsp-updates by the Wayback capture of 2026-02-20 cited in the reconnaissance record). The document contains no changelog or effective date; the date comes from the file name 'Final 2025.12.04' and the PDF CreationDate D:20251204231929Z.

@@ -1,0 +1,1 @@
+NA (first version; no predecessor). Announcement: none found (checked: https://magic.dev/agi-readiness-policy, which carries the heading 'Version 1.0 — July 2, 2024' and no link to an announcement; web search in reconnaissance and on 2026-09-02).
