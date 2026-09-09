@@ -1,5 +1,7 @@
 # Frontier Safety Framework Corpus
 
+[![DOI](https://zenodo.org/badge/1354518995.svg)](https://doi.org/10.5281/zenodo.22670700)
+
 A versioned, hash-pinned corpus of the safety frameworks published by frontier AI developers, together with each provider's own account of each revision, and the coding that supports the paper *Silent Revision: Measuring Undisclosed Change in the Safety Frameworks of Frontier AI Developers*.
 
 **Paper:** [arXiv:2609.08789](https://arxiv.org/abs/2609.08789)
@@ -79,5 +81,15 @@ Three different things live here and they are licensed differently. See `NOTICE.
   eprint = {2609.08789},
   archivePrefix = {arXiv},
   primaryClass  = {cs.CY}
+}
+```
+
+```bibtex
+@dataset{zhu2026corpus,
+  title     = {Silent Revision: a versioned corpus of frontier AI safety frameworks and their revision accounts},
+  author    = {Zhu, Louis Yiven},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.22670700}
 }
 ```
