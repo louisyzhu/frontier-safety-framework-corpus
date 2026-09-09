@@ -2,7 +2,7 @@
 
 A versioned, hash-pinned corpus of the safety frameworks published by frontier AI developers, together with each provider's own account of each revision, and the coding that supports the paper *Silent Revision: Measuring Undisclosed Change in the Safety Frameworks of Frontier AI Developers*.
 
-**Paper:** [arXiv link to be added]
+**Paper:** [arXiv:2609.08789](https://arxiv.org/abs/2609.08789)
 **Contact:** yiven.zhu@oii.ox.ac.uk
 
 ## What this is for
@@ -76,7 +76,7 @@ Three different things live here and they are licensed differently. See `NOTICE.
   title  = {Silent Revision: Measuring Undisclosed Change in the Safety Frameworks of Frontier AI Developers},
   author = {Zhu, Louis Yiven},
   year   = {2026},
-  eprint = {TO BE ADDED},
+  eprint = {2609.08789},
   archivePrefix = {arXiv},
   primaryClass  = {cs.CY}
 }
