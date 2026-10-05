@@ -20,7 +20,8 @@ corpus/
   documents/            every retrieved framework and companion document as published,
                         with a plain-text extraction of each
   changelogs/           the provider's revision account for each labelled pair
-  pairs.csv             19 consecutive labelled pairs with disclosure regime
+  pairs.csv             19 consecutive labelled pairs with disclosure regime; the
+                        12 marked traced enter the paper's silent revision rate
   candidates.csv        2,426 commitment-candidate sentences
   silent_variants.csv   9 same-label re-uploads and the materiality of each difference
   collection_log.md     what was searched, found and not found, per provider
