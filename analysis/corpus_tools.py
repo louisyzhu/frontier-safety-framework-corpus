@@ -1,8 +1,11 @@
 """Shared helpers for building the safety-framework corpus.
 
-Usage (python kernel, in the sub-agent's own workspace):
-    exec(open(PATH_TO_THIS_FILE).read())
-Then call the functions below. Nothing here spoofs a User-Agent; requests' default UA is used.
+Fetching, Wayback retrieval, neighbouring-capture comparison, PDF and HTML text
+extraction, SHA-256 hashing and manifest verification. Nothing here spoofs a
+User-Agent; requests' default UA is used.
+
+Verify the corpus against the manifest:
+    python corpus_tools.py --verify ../corpus/manifest.csv
 """
 import csv, hashlib, json, os, re, time
 import requests

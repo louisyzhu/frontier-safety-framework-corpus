@@ -1,0 +1,93 @@
+commitment_id,material,outcome,mix,announcement,decision,reason
+ANT-1-002,yes,W,no,ANN-P,changed,"The Testing for Capability Thresholds item announces that prespecified evaluations were replaced; the commitment to define the next level's evaluations in advance belongs to that class, and the dropped timing gate is not stated."
+ANT-1-003,yes,S,no,ANN-P,kept,Footnote 18 (competitor clause) is coded at ANT-1-004; this row carries the change-log addition only.
+ANT-1-014,yes,W,no,SIL,kept,"The ASL-2 list promise is a disclosure commitment; the account names ASL-2 only for threat-model changes, which do not identify it."
+ANT-1-015,yes,W,no,ANN-P,changed,"The promise sits in the ASL-3 safeguards section, which the account names as made less prescriptive; the dropped publication promise is not stated."
+ANT-1-023,yes,W,no,ANN-P,kept,The account states that thresholds are now capability-specific; the narrowing of the misuse trigger to CBRN is identifiable only with v1.0 in hand.
+ANT-1-029,yes,W,no,ANN-P,kept,Highly protected against most attackers restates the v1.0 standard at similar force; the actor-scope narrowing is the material change.
+ANT-1-030,yes,W,no,ANN,kept,Access management around sensitive assets governs the same object in generalised form; the less-prescriptive direction is stated.
+ANT-1-036,yes,X,no,ANN-P,kept,"A removed specific safeguard: the class is named, but the stated direction (specifics replaced by standards) does not tell a reader this measure vanished without replacement."
+ANT-1-037,yes,W,yes,ANN,kept,Should-level measures become will-level controls while specificity and insider scope narrow; both directions present.
+ANT-1-047,yes,X,no,ANN-P,changed,"An ASL-3 deployment measure removed outright; the ASL-3 safeguards class is named as revised, so ANN-P rather than SIL, as ANT-1-036."
+ANT-1-049,yes,S,no,ANN-P,changed,The ASL-3-only vulnerability channel becomes a baseline commitment for all models and gains a bug bounty (scope); the ASL-3 deployment measures are named as revised without this direction.
+ANT-1-054,no,R,no,NA,kept,v2.0 provides Capability Reports to the Board and LTBT and shares decisions before moving forward; recipients and obligation unchanged.
+ANT-1-062,yes,S,no,ANN-P,changed,The safeguards-determination step now runs through the announced Safeguards Reports; the added follow-up assessment condition is not stated.
+ANT-1-066,yes,W,yes,ANN,changed,Forecasts narrow in trigger (comprehensive assessments instead of every training run) and horizon (next testing round instead of next ASL) while becoming a required criterion; item (b) states the new form.
+ANT-1-067,yes,W,yes,ANN-P,changed,Scope broadens to all thresholds while the named third party and the design-advice obligation are dropped; MIX added.
+ANT-1-068,yes,W,yes,ANN,changed,Training targets for elicitation are replaced by a floor plus a general realistic-attacker standard across all assessments; the less-prescriptive methodology item states the direction.
+ANT-1-070,yes,W,no,ANN,kept,The inference budget survives as the general resource criterion; the account states that testing specifics were replaced.
+ANT-1-072,yes,S,no,ANN,kept,The affirmative-case requirement is announced; the threshold-domain change is coded on the threshold rows.
+ANT-1-073,yes,W,yes,SIL,changed,The intention to share the misuse-evaluation work becomes a plan to share only the CBRN capability lists (narrower object) with named recipient types and updating (more concrete); no account passage concerns it.
+ANT-1-079,yes,A,no,ANN-P,changed,A new RSO power; the account names expanded RSO duties without this one.
+ANT-1-095,yes,A,no,ANN-P,changed,A new CEO and RSO duty; the account names expanded RSO duties and new internal governance procedures without this one.
+ANT-2-003,yes,X,no,ANN-P,kept,No company commitment applies ASL-2 standards to all models in v3.0 or the companions; the ASL structure is announced as restructured without stating the loss of the baseline.
+ANT-2-004,yes,L,no,SIL,changed,"The FCF (section 4) commits to public assessment summaries in system cards at launch for in-scope models; the commitment survives only there, narrower (temporal caveat: FCF v2 post-dates the pair)."
+ANT-2-005,yes,L,no,ANN,kept,Moved into the industry-recommendations column; calibration example A.
+ANT-2-006,yes,L,no,ANN,kept,Moved into the industry-recommendations column; calibration example A.
+ANT-2-007,yes,W,yes,ANN-P,kept,Scope narrows to chemical and biological weapons while the company column adds publication of updates in Risk Reports.
+ANT-2-009,yes,W,no,ANN,kept,The post states that higher-level requirements are now recommendations and unilateral commitments more realistic.
+ANT-2-010,yes,W,yes,ANN-P,changed,The acceptability gate is dropped while the analysis now applies to every in-scope model in every Risk Report; MIX added.
+ANT-2-014,yes,X,no,SIL,kept,The watch-list commitment has no counterpart; a risk category in the FCF is not a watch-list.
+ANT-2-016,yes,W,yes,SIL,changed,"The novel-CB row commits to identify specific threat pathways and share this content with policymakers: recipients and trigger change, updating is dropped, obligation firms; four independent readings trace it there. No account passage."
+ANT-2-029,yes,X,no,ANN-P,kept,"Part of the restructured capability-decision procedure; the restructure is named, the provision is not."
+ANT-2-031,yes,W,no,ANN-P,kept,"The ASL-3 required showing is restructured into the two-column map, which the post describes; the loosening is not stated."
+ANT-2-032,yes,W,no,ANN-P,kept,As ANT-2-031.
+ANT-2-033,yes,W,no,ANN-P,changed,"The company column keeps red-teaming, bug bounties and threat intelligence for continually assessing jailbreaks, so identification survives as a company commitment and the remediation obligation is dropped; W as ANT-2-031, not L."
+ANT-2-034,yes,W,no,ANN-P,kept,As ANT-2-031.
+ANT-2-036,yes,W,no,ANN-P,kept,As ANT-2-031.
+ANT-2-037,yes,X,no,SIL,kept,"The FCF says its approach 'has been informed by' standards; that is background, not a standing commitment to align with security frameworks, so no counterpart survives."
+ANT-2-039,yes,L,no,ANN-P,kept,The ASL-3 Security Standard class is named as restructured; direction not stated.
+ANT-2-041,yes,W,yes,ANN-P,changed,Annual re-approval dropped while a floor and Risk Report updates are added; MIX added.
+ANT-2-043,yes,X,no,ANN-P,kept,A permissive provision removed within the restructured block; the stated loosening does not describe it.
+ANT-2-048,yes,W,yes,ANN-P,changed,The investment commitment becomes reporting of advocacy steps while the trigger and disclosure broaden; the post names gap reporting with the disclosure direction only.
+ANT-2-055,yes,W,yes,SIL,changed,Promptness and documentation of findings are added while otherwise-identified instances and tracking are dropped; MIX added.
+ANT-2-057,yes,L,no,SIL,kept,"The noncompliance policy provides channels for questions and concerns about the RSP, narrower than pathways for any issue."
+ANT-2-075,yes,A,no,ANN-P,kept,Risk Report contents are named; the absolute-risk acknowledgement is not stated.
+ANT-2-085,yes,A,no,ANN,changed,"The post states reviewer access to the Risk Report and a comprehensive public review, which is this commitment's substance; only the timings are omitted."
+ANT-2-094,yes,A,no,ANN-P,changed,"The post describes the FCF as the vehicle for regulatory requirements as an existing practice, not as a provision of the new RSP."
+GDM-1-007,no,R,no,NA,kept,External evaluation survives at discretionary force; engagement with external actors is a different object.
+GDM-1-022,yes,W,yes,ANN-P,changed,Threshold object narrows to any Google AI-capabilities team (earlier trigger) while the cost comparator is dropped (example F); the post says CCL definitions were sharpened without this substance.
+GDM-1-035,yes,S,no,ANN,changed,"The v2.0 Future Work bullet (aim to include additional risks) is the counterpart; present-tense ongoing assessment is stronger, and systematic risk identification is announced."
+GDM-2-006,no,R,no,NA,kept,The operative sentence is unchanged; the added strive-to sentence is aspirational.
+GDM-2-011,yes,S,no,SIL,changed,"The commitment sits in 2.1.2, outside section 1.3 that the risk-management bullet names; no bullet locates it."
+GDM-2-012,yes,S,no,ANN,kept,The T/CCL extension is stated; large-scale to high-risk internal deployments is a re-targeting with no clear direction.
+GDM-2-024,yes,S,no,ANN,changed,"The pre-deployment governance gate now covers residual-risk acceptance for any model reaching a T/CCL, with the safety case only at CCLs; the risk acceptance process for TCLs is announced."
+GDM-2-030,yes,W,yes,ANN-P,changed,The scope-defining 'including our automated benchmarks' becomes an illustrative 'such as' (rule 11.2) while the trigger firms to every post-training run; MIX.
+GDM-2-039,no,R,no,NA,changed,The insertion sits inside an e.g. clause and the adequacy rule is unchanged (rule 11.2).
+GDM-2-047,yes,A,no,SIL,kept,"Item 3 names a specific security change for named CCLs, not a revision of the security section; the SAIF statement is not identified."
+META-1-005,no,R,no,NA,kept,Lifecycle wording follows v2's deploy terminology; no dimension moves.
+META-1-009,yes,S,no,ANN,kept,The changelog states that the standard moved from enable to substantially contribute; this trigger is that replacement.
+META-1-020,no,R,no,NA,kept,Timing was implicit and the method description adds no obligation.
+META-1-028,yes,W,no,ANN,kept,Substantial contribution to a threat scenario is a higher bar than uplift towards one; the standard change is stated.
+META-1-031,yes,X,no,ANN,changed,"The changelog states that the critical-threshold measure moved from Stop to Develop with Mitigations; the barrier-investigation steps belonged to the Stop posture, so the direction is stated."
+META-1-038,yes,W,yes,SIL,kept,Severity floor narrows the outcomes while the capability bar lowers; no account passage.
+META-1-042,no,R,no,NA,kept,"The v1.1 sentence describes the iterative evaluation process after a negative absence-validation result; v2 states the classification outcome, and evaluation during training continues elsewhere. Borderline; the majority of independent readings find no material change."
+META-1-055,yes,A,no,ANN-P,kept,Pre-safeguard evaluation is named; the elicitation standard is not.
+META-1-077,yes,A,no,ANN-P,kept,Risk domains are named as broadened; the inclusion rule is not stated.
+META-1-080,yes,A,no,ANN-P,kept,Post-safeguard evaluation is named; adversary modelling is not.
+META-1-098,yes,A,no,ANN-P,kept,The Loss of Control section is announced; its specific commitments are not stated (as META-1-097).
+META-1-099,yes,A,no,ANN-P,kept,As META-1-098.
+META-1-100,yes,A,no,ANN-P,kept,As META-1-098.
+MSFT-1-001,yes,S,no,ANN,kept,"Quoted texts corrected to the tracked-capabilities list (the row carried a duplicate of MSFT-1-017's security sentence); two capabilities added, stated in the changelog."
+MSFT-1-004,yes,W,yes,ANN,kept,The changelog states the substance: scope aligned to regulation.
+NAV-1-004,yes,S,no,ANN,kept,The frontier-only scope restriction is lifted; no commitment weakens.
+NAV-1-005,yes,W,no,ANN,kept,Launch-stage and post-launch evaluation govern the same object; the performance-based criterion is announced as replaced.
+NAV-1-007,yes,W,yes,ANN-P,kept,The new criteria are stated; the dropped capability axis is not.
+NAV-1-013,yes,S,no,ANN-P,changed,Post-launch monitoring becomes ongoing evaluations and improvements with named inputs; the press release names ongoing assessments and user feedback without presenting a change.
+NAV-1-014,yes,S,no,ANN-P,kept,User communication is named as a component of the new framework; the publication commitment is not stated.
+NAV-1-017,yes,W,yes,ANN-P,changed,Writing guides on Using AI for People drops from the operative list while feedback channels are made explicit; user feedback is named.
+XAI-2-013,yes,X,no,NCL,changed,The disclosure duty for material benchmark or threshold changes has no counterpart; the surviving permission to revise benchmarks carries no obligation.
+XAI-2-017,no,R,no,NA,kept,Intend to improve and continue to work towards are of similar force.
+XAI-3-001,yes,S,no,NCL,kept,Rule 11.2 as written: 'including catastrophic risks' is a scope-defining addition; consistent with XAI-4-001.
+XAI-4-015,yes,W,no,NCL,kept,The generic CBRN filter clause governs the same object; the enumerated steps are dropped.
+XAI-4-016,yes,W,yes,NCL,kept,Standing benchmark evaluation replaces per-release reassessment while the critical-steps aim is dropped.
+XAI-4-041,yes,S,no,NCL,changed,A discretionary notification clause becomes a mandatory legal-reporting duty with deadlines; no obligation is lost.
+OAI-1-004,yes,W,no,ANN-P,kept,"Item 12 names the governance process, which the Preparedness team's remit belongs to; the loss of the named team is not stated."
+OAI-1-011,yes,W,no,ANN,changed,"Item 4 states that nuclear and radiological capabilities moved out of the Tracked Categories, which is the narrowing coded here; class and direction stated."
+OAI-1-012,yes,W,no,ANN,changed,As OAI-1-011; item 2 also redefines Critical as novel threat vectors.
+OAI-1-016,yes,W,no,ANN,changed,"Items 4 and 5 state that autonomous replication moved to Research Categories, which is the narrowing coded here; the AI R&D redefinition is not described but the direction is."
+OAI-1-020,yes,W,no,SIL,kept,The scalable-evaluations item introduces an instrument; it does not identify the evaluation trigger as changed.
+OAI-1-026,yes,S,no,ANN,kept,Security controls during development remain required for covered systems and forecasts still govern checkpoint coverage; the added required practices are announced in item 7.
+OAI-1-029,yes,W,yes,ANN-P,changed,Trigger broadens from Critical to High or Critical while the evidence standard weakens to a report; MIX added.
+OAI-1-035,yes,W,no,ANN-P,changed,The SAG Chair's case forwarding with copies to the Board and the Preparedness team becomes recommendations to Leadership alone; a separate commitment from the Board oversight row OAI-1-034. Item 12 names the SAG process.
+OAI-1-050,yes,A,no,ANN-P,changed,"The post presents publication of findings as continuing practice and does not identify a new framework commitment; the commitment is pointed at, not announced as added."

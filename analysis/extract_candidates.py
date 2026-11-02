@@ -1,11 +1,11 @@
 """Phase B: recall-oriented extraction of candidate commitment sentences.
 
-Operational test (from the brief): the sentence refers to the provider as actor (we/our/us, the company name,
-or a named internal role) AND contains a commitment-strength verb or modal
-(will, must, commit, shall, intend, aim, expect, may, could, consider, plan). Conditional commitments included.
-No classification or paraphrase. Over-inclusion accepted; omission not.
-
-Usage: python extract_candidates.py manifest.csv documents/ candidates.csv
+Operational test: the sentence refers to the provider as actor (we/our/us, the company
+name, or a named internal role) AND contains a commitment-strength verb or modal
+(will, must, commit, shall, intend, aim, expect, may, could, consider, plan).
+Conditional commitments are included. No classification or paraphrase is performed here;
+over-inclusion is accepted, omission is not. Codebook inclusion rules are applied later,
+by hand, against the output.
 """
 import csv, re, sys, unicodedata
 from collections import Counter

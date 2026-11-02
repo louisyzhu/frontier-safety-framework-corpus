@@ -4,4 +4,4 @@
 
 No claim of ownership is made over these documents, and the CC BY 4.0 licence covering this repository's author-created materials does not extend to them. Each file's origin, retrieval URL and retrieval date are recorded in `corpus/manifest.csv`.
 
-If you are a rights holder and wish a document removed, open an issue or write to yiven.zhu@oii.ox.ac.uk. The manifest row, hash and retrieval record will be retained so that the analysis remains verifiable, and the file itself will be removed.
+If you are a rights holder and wish a document removed, open an issue or write to louis.zhu@oii.ox.ac.uk. The manifest row, hash and retrieval record will be retained so that the analysis remains verifiable, and the file itself will be removed.
