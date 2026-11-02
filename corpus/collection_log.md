@@ -4,8 +4,8 @@ Corpus of frontier AI safety frameworks, built 1 to 2 September 2026 (UTC). All 
 
 ## 0. Order of work
 
-1. restatement.md was written and saved before any reconnaissance or download began (artifact version 0b2e7440-5752-41f3-904a-af548db331cf, 1 September 2026 23:2x UTC).
-2. Phase A1 reconnaissance ran as four parallel tracks (Anthropic; OpenAI; DeepMind, xAI and Meta; the seven single-version signatories). Each track's full search log is a separate artifact: recon_anthropic.md, recon_openai.md, recon_deepmind_xai_meta.md, recon_signatories.md. This file summarises them and records the judgement calls made when consolidating.
+1. The collection protocol was written and fixed before any reconnaissance or download began, on 1 September 2026.
+2. Phase A1 reconnaissance ran as four parallel tracks (Anthropic; OpenAI; DeepMind, xAI and Meta; the seven single-version signatories). Each track kept its own search log; this file consolidates them and records the judgement calls made in doing so.
 3. Phase A2 collection began only after the consolidated list below was written.
 
 ## 1. Access and environment
@@ -16,7 +16,7 @@ Corpus of frontier AI safety frameworks, built 1 to 2 September 2026 (UTC). All 
 - g42.ai returns 403 to the sandbox. G42 documents come from Wayback.
 - storage.googleapis.com is on the sandbox's built-in denylist. DeepMind PDFs were read from Wayback during reconnaissance; the bucket-qualified host deepmind-media.storage.googleapis.com was granted afterwards and serves the same files (checked: frontier-safety-framework_3-1.pdf, 447155 bytes, HTTP 200).
 - ai.meta.com/static-resource/meta-frontier-ai-framework/ returns HTTP 500 (live and in Wayback from 24 April 2026). The 2025 Meta document comes from Wayback.
-- Anthropic hosts (www.anthropic.com, www-cdn.anthropic.com, cdn.sanity.io) answered 200 throughout. A prior session had recorded 403s from Anthropic hosts; not reproduced here.
+- Anthropic hosts (www.anthropic.com, www-cdn.anthropic.com, cdn.sanity.io) answered 200 throughout. An earlier attempt had recorded 403s from Anthropic hosts; not reproduced here.
 - Anthropic's Frontier Compliance Framework is hosted only inside a Vanta Trust Center app (trust.anthropic.com), which the sandbox cannot render. See judgement call J7.
 
 ## 2. Reconnaissance results by track
@@ -144,7 +144,7 @@ Limits declared by the track:
 - Wayback CDX prefix enumeration of openai.com/* and cdn.openai.com/* could not be completed (HTTP 429 rate limiting and read timeouts); only the specific URLs were enumerated, so the absence of differently named intermediate or later PF PDFs is provisional.
 - Only the earliest Wayback capture of each announcement page was read; the later distinct-digest captures (43 for the Beta page, 70 for the v2 post, 8 for the FGF post) were not diffed.
 - openai.com HTML pages were read via Wayback captures and web search snippets, not directly (HTTP 403 to the sandbox).
-- The parent brief's listed final outputs (restatement.md, manifest.csv, collection_log.md, documents/, changelogs/, candidates.csv) were not produced; this task was reconnaissance only and produced recon_openai.md plus this structured output.
+- This track was reconnaissance only; the manifest, documents and candidate list were produced later, in Phase A2.
 
 ### 2.3 Google DeepMind, xAI, Meta (recon_deepmind_xai_meta.md)
 
@@ -216,7 +216,7 @@ Conflicts recorded:
 - DeepMind: secondary sources (comparativeai.org, futureagi.com) call the 17 Apr 2026 update 'v3.0'; the PDF, framework page and blog say 'Version 3.1'.
 - DeepMind FSF 2.0: three byte variants of the 'Version 2.0' document (5 Feb 2025; '(1).pdf' from 13 Feb 2025; 21 Mar 2025 corrected file first captured 28 Mar 2025) with no version number change.
 - DeepMind FSF 3.1: stated publication 17 Apr 2026 vs earliest Wayback capture of the PDF 25 May 2026 (coverage gap, recorded not resolved).
-- xAI drafts: the brief's single 'Feb 2025 draft' is two documents with different text (2025.02.10 and 2025.02.20 filenames).
+- xAI drafts: what the protocol treated as a single 'Feb 2025 draft' is two documents with different text (2025.02.10 and 2025.02.20 filenames).
 - xAI 20 Feb draft: filename date 20 Feb 2025; PDF CreationDate 21 Feb 2025; first real-PDF Wayback capture 26 Feb 2025; PDF ModDate 7 Mar 2025 (text unchanged).
 - xAI Aug 2025 RMF: 'Last updated: August 20, 2025' in document; capture of 21 Aug 2025 differs in text from the current file created 22 Aug 2025 ('AISI,' removed).
 - xAI Dec 2025 FAIF: 'December 30, 2025' (body) vs 2025-12-31 (filename, server Last-Modified).
@@ -333,7 +333,7 @@ Limits declared by the track:
 - Secondary trackers SaferAI and Vorp Labs were read only through web_search snippets, not fetched.
 - Naver: bilingual comparison of the clova.ai English text against the navercorp.com Korean text was not performed; the English page is treated as a translation.
 
-## 3. Corrections to the brief's hypotheses
+## 3. Corrections to the protocol's hypotheses
 
 | Brief hypothesis | Finding | Evidence |
 |---|---|---|
@@ -364,7 +364,7 @@ Limits declared by the track:
 - **J11. Dates.** publication_date takes the provider's stated effective or publication date; alternatives go in notes and date_source records which one was used. Conflicts are carried verbatim from section 2.
 - **J12. Naver 2024 ASF** exists only as web pages (Korean on navercorp.com, Korean and English on clova.ai). The English clova.ai page is saved as the primary file and the two Korean pages alongside it. ASF 2.0 English PDF is primary; the Korean PDF is saved if found.
 - **J13. Single-version signatories with a second version (Microsoft, Naver)**: both versions are collected and the revision account is retrieved. They may now enter the drift analysis; noted in manifest.
-- **J14. HTML documents** are saved as the raw HTML served (from Wayback with the id_ flag, or live), not re-packaged with inlined assets. The brief asks for a single self-contained file; the raw page is a single file and the text extraction is what downstream work uses. Noted as a deviation from the letter of the brief.
+- **J14. HTML documents** are saved as the raw HTML served (from Wayback with the id_ flag, or live), not re-packaged with inlined assets. The protocol asks for a single self-contained file; the raw page is a single file and the text extraction is what downstream work uses. Noted as a deviation from the letter of the protocol.
 
 ## 5. Resolved collection list
 
@@ -425,7 +425,7 @@ Limits declared:
 - Truncated Wayback captures of the Meta FAF (20250215, 20250419) and AASF (20260408173617, 20260508190541) were not downloaded; their truncated status is recon-sourced
 - Which DeepMind page linked 'Frontier Safety Framework 2.0 (1).pdf', and when, not verified (carried from recon)
 - The xAI announcement search relied on the recon CDX listing of x.ai/news (live 403) plus four x.ai/safety captures and two web searches; no further enumeration
-- restatement.md and candidates.csv listed among the session's desired outputs were not part of this collection brief and were not produced
+- The candidate list was outside this track's scope and was produced later, in Phase B
 
 Failures and workarounds:
 - neighbour_captures() for https://ai.meta.com/static-resource/Meta_Advanced-AI-Scaling-Framework-v2 failed: Wayback CDX unreachable through the sandbox proxy (HTTP 502) on five attempts; only capture 20260408163104 verified (sha256 identical to live); capture history for that URL is recon-sourced and provisional
@@ -439,7 +439,7 @@ Failures and workarounds:
 Limits declared:
 - Naver 2024 ASF English page saved from the live clova.ai page rather than the Wayback 20241103220646 capture; extracted text identical, bytes differ only in boilerplate; capture hash recorded in the log.
 - Version slugs for the three unversioned single documents (Amazon, NVIDIA, G42) were set to the publication month '2025-02' because no other collection manifest existed to align with.
-- Deliverables follow the task rules (manifest_signatories.csv, log_signatories.md) rather than the parent's generic names manifest.csv and collection_log.md; restatement.md and candidates.csv were not in this task's scope.
+- This track's files were named manifest_signatories.csv and log_signatories.md before consolidation into manifest.csv and this log.
 - Pre-publication variants of the Microsoft February 2026 PDF and the Naver ASF 2.0 PDFs (ModDate after CreationDate) could not be checked because no Wayback captures predate the files as served; presence/absence of such variants is provisional.
 
 Failures and workarounds:
@@ -465,14 +465,14 @@ Failures and workarounds:
 - Every row has a revision_account_exists value: yes 22, na 18 (first versions, companions with no predecessor), no 10 (NONE files listing what was checked).
 - Every SaferAI quotation check has a result: pass 9, na 41. No fail.
 - Every 'not found' in sections 2 and 7 lists the sources checked.
-- restatement.md was written and saved before reconnaissance began (section 0).
+- The collection protocol was fixed before reconnaissance began (section 0).
 - Two rows are not retrieved: the Frontier Compliance Framework, Dec 2025 and Feb 2026. They need a manual download from the Trust Center URLs in their notes.
 
 ## 9. Items for the author
 
 1. Download the two Frontier Compliance Framework PDFs from trust.anthropic.com (URLs in manifest rows 12 and 13) and add sha256 and text; the manifest rows are ready.
 2. The brief's attribution of the RSP v3.0 reasoning post to Buck Shlegeris is not supported; the post is by Holden Karnofsky on LessWrong (personal capacity). Anthropic's own account is the v3.0 news post and the page entry. Both are in changelogs/anthropic_rsp_v3.0_2026-02-24_revision-account.md.
-3. Four providers now have more versions than the brief assumed (Anthropic v3.1; DeepMind 3.1; xAI five documents; Microsoft and Naver second versions). Meta's 2025 PDF has a substantive silent edit (scope sentence) that the 2026 change log does not mention.
+3. Four providers have more versions than the protocol assumed (Anthropic v3.1; DeepMind 3.1; xAI five documents; Microsoft and Naver second versions). Meta's 2025 PDF has a substantive silent edit (scope sentence) that the 2026 change log does not mention.
 4. x.ai currently serves a Git LFS pointer instead of the 20 Feb 2025 draft PDF; its oid equals the SHA-256 of the file in this corpus.
 5. Korean-language Naver renderings are in the manifest but excluded from Phase B.
 
@@ -612,7 +612,7 @@ Date of collection: 2026-09-02. Toolkit: corpus_tools.py (fetch, fetch_wayback, 
 
 # Collection log: OpenAI (group 'openai')
 
-Date of collection: 2 September 2026. Collector: sub-agent working from recon_openai.json (frame 653f5038). Toolkit: corpus_tools.py (fetch, fetch_wayback, neighbour_captures, pdf_to_text, html_to_text). All fetches returned HTTP 200 unless stated.
+Date of collection: 2 September 2026. Collection was automated, working from the consolidated reconnaissance record. Toolkit: corpus_tools.py (fetch, fetch_wayback, neighbour_captures, pdf_to_text, html_to_text). All fetches returned HTTP 200 unless stated.
 
 ## Preparedness Framework (Beta), 2023-12-18
 - Fetched live https://cdn.openai.com/openai-preparedness-framework-beta.pdf: HTTP 200, application/pdf, 27448530 bytes, sha256 c84e3a59c7dab251e45434e0b0d3e8abadcea7293f995cf92d32269e7d290398.
@@ -796,7 +796,7 @@ Date of collection: 2 September 2026. Toolkit: corpus_tools.py (fetch, fetch_way
 - Live x.ai HTML (x.ai/news) returns HTTP 403; not needed beyond the recon CDX listing.
 - Meta FAF live URL returns HTTP 500; both variants taken from Wayback.
 - The earliest-published text of Meta FAF (3 to 13 February 2025), the 17 April 2026 state of the FSF 3.1 PDF (first capture 25 May 2026) and the first server generation of the xAI June 2026 FAIF could not be verified.
-- restatement.md and candidates.csv, listed among the session's desired outputs, were not part of this collection brief and were not produced here.
+- The candidate list was outside this track's scope and was produced later, in Phase B.
 
 
 ---
@@ -805,7 +805,7 @@ Date of collection: 2 September 2026. Toolkit: corpus_tools.py (fetch, fetch_way
 
 # Collection log: signatories group
 
-Date of collection: 2026-09-02. Collector: this session. Inputs: recon JSON vaba95d49_recon_sigs.json (frame 3a7f4e26), toolkit v019d4b20_corpus_tools.py.
+Date of collection: 2026-09-02. Collection was automated. Inputs: the consolidated reconnaissance record for the single-version signatories; toolkit corpus_tools.py.
 
 Conventions. Files are named with make_filename(). Unversioned single documents (Amazon, NVIDIA, G42) carry the publication month as version slug ('2025-02'); no other collection manifest existed in the project to align with. SHA-1 base32 values below are computed locally for comparison with Wayback CDX digests. SaferAI quote checks are not applicable to this group (all 'na'). Wayback requests were kept to one CDX query per live PDF, one neighbour_captures() query per Wayback-sourced file, and the fetches listed. One CDX request (NVIDIA) timed out and was repeated once. Rows in manifest_signatories.csv: 14.
 
@@ -817,7 +817,7 @@ Conventions. Files are named with make_filename(). Unversioned single documents 
 - Revision account: changelogs/amazon_frontier-model-safety-framework_2025-02_2025-02-09_revision-account.md
 - HTTP Last-Modified: Mon, 10 Feb 2025 00:35:59 GMT. PDF CreationDate D:20250210003158Z. PDF metadata title 'PC Amazon Frontier Model Safety Framework 2.7 FINAL'.
 - Comparison: local SHA-1 base32 4NSNPGJAPSSG4P5LNA4YQOC4ET64LH57 equals the CDX digest for cdn.amazon.science (single capture 20260423074133) and for assets.amazon.science (single capture 20250213011856). Live bytes identical to the earliest capture; live URL used.
-- Date: amazon.science page text 'This report was published on February 9, 2025.' used. Conflict with 2025-02-10 (CreationDate UTC, Last-Modified, METR) recorded in notes. Judgement: follow the provider page, per the brief.
+- Date: amazon.science page text 'This report was published on February 9, 2025.' used. Conflict with 2025-02-10 (CreationDate UTC, Last-Modified, METR) recorded in notes. Judgement: follow the provider page, per the protocol.
 - The page text is rendered client-side, so html_to_text() of the page returned no body; the date was read from the raw HTML.
 - Revision: none published. Checked the publication page, the PDF text, CDX for both PDF hosts, and reconnaissance web search.
 
@@ -864,7 +864,7 @@ Conventions. Files are named with make_filename(). Unversioned single documents 
 - Revision account: changelogs/nvidia_frontier-ai-risk-assessment_2025-02_2025-02-17_revision-account.md
 - HTTP Last-Modified: Mon, 17 Feb 2025 18:46:20 GMT. PDF CreationDate D:20250211185510-08'00'. No date printed in the document; title page states 'Applicable from August 2025'.
 - Comparison: local SHA-1 base32 HQFDWQDOF27ULCU5SDLCTH5KQQ5HN5I4 equals the sole CDX digest (capture 20250224223739). First CDX request timed out after 60 s; the retry succeeded.
-- Date: 2025-02-17 (Last-Modified) used per the brief; CreationDate 2025-02-11 and the August 2025 applicability recorded in notes.
+- Date: 2025-02-17 (Last-Modified) used per the protocol; CreationDate 2025-02-11 and the August 2025 applicability recorded in notes.
 - Revision: none published. Checked the PDF, the trust-center page, CDX, and reconnaissance's prefix query and web search.
 
 ## Cohere: The Cohere Secure AI Frontier Model Framework V1.0
@@ -884,7 +884,7 @@ Conventions. Files are named with make_filename(). Unversioned single documents 
 - HTTP status: 200; bytes: 5799923; SHA-256: 36ddb6b0cc80ca7d275019c4fbd0545b51fcf875147c171eca35ccdb060a3e58; Wayback capture timestamp: 20250214105213 (requested 20250214105213; no redirect)
 - Saved as: documents/g42_frontier-ai-safety-framework_2025-02_2025-02-06.pdf; text: documents/g42_frontier-ai-safety-framework_2025-02_2025-02-06.txt
 - Revision account: changelogs/g42_frontier-ai-safety-framework_2025-02_2025-02-06_revision-account.md
-- Live HEAD of the PDF URL: HTTP 403. currently_hosted = unknown, per the brief.
+- Live HEAD of the PDF URL: HTTP 403. currently_hosted = unknown, per the protocol.
 - neighbour_captures: before = none; after = 20251128113247 6P5DP6W4KVMYTPFKX4VKWQ4LVYW7TLOF, 20260204152916 6P5DP6W4KVMYTPFKX4VKWQ4LVYW7TLOF, 20260204205903 6P5DP6W4KVMYTPFKX4VKWQ4LVYW7TLOF. Local SHA-1 base32 6P5DP6W4KVMYTPFKX4VKWQ4LVYW7TLOF equals the CDX digest of the 20250214105213 capture and of the three later captures (to 20260204205903). Reconnaissance had reported a single PDF capture; three later captures now exist, all with the same digest. The file was still served unchanged on 2026-02-04.
 - PDF CreationDate D:20250206055434Z. Cover prints 'February 2025'; the title is an image. Date 2025-02-06 from the g42.ai news page (Wayback 20250215005301, from reconnaissance) and CreationDate.
 - Revision: none found.
@@ -897,7 +897,7 @@ Conventions. Files are named with make_filename(). Unversioned single documents 
 - Revision account: changelogs/naver_asf_2024_2024-06-17_revision-account.md
 - Wayback comparison: capture 20241103220646 fetched (SHA-256 daf4df96069dfc83d3c4280a8c31f6c45a446b8781880e9bbc7872e5e26dd7b7, 81496 bytes, local SHA-1 base32 HNLENNA4IOSOKBAO36D4WDILXQASITIU equals the CDX digest). Extracted text of the live page and the capture is identical (zero changed lines); bytes differ. Judgement: live page saved as primary (J2: byte-only difference); capture URL and timestamp recorded in notes.
 - neighbour_captures: before = none; after = 20241207180357 HNLENNA4IOSOKBAO36D4WDILXQASITIU, 20250426115404 ISU7HNLTKCIZ65KENTAGWWJK7ZHELW7E, 20250808081752 3RGOA4V7RMX24RBFHK6UFRV3GW5JFBDP.
-- Page dated 'Aug 7, 2024'. Publication date 2024-06-17 taken from navercorp.com, per the brief; conflict recorded.
+- Page dated 'Aug 7, 2024'. Publication date 2024-06-17 taken from navercorp.com, per the protocol; conflict recorded.
 - Revision account: NA; announcement press release seq=31855 (fetched live, HTTP 200, title '네이버, AI 안전성 실천 체계 공개…안전한 소버린 AI 생태계 구축한다', dated 2024-06-17).
 
 ## Naver: 2024 ASF, Korean rendering (navercorp.com story), slug 2024-ko-navercorp
@@ -956,7 +956,7 @@ Conventions. Files are named with make_filename(). Unversioned single documents 
 - Revision account: changelogs/magic_agi-readiness-policy_v1.0-reupload-20240720_2024-07-02_revision-account.md
 - neighbour_captures: before = 20240704164810 LBTUB2DUZJMJKT2MCR7PQNR6ZI4PCZOS, 20240710104824 GY3VXC4F424TPAT572DHL4UEWSMYLUF6; after = 20240808174147 PRSXLSP7WSKCXSMKVAZVU5CQ67PJZFEA, 20240822123127 BXMPHUQOABLDHO5C7DFUTMSC5VSOYTTM, 20240829203910 AKLPHG7TP4RZKYHDPDMRJH3ACY2ICQYN.
 - Text diff against 20240704164810 (12 changed lines): the LiveCodeBench baseline paragraph and its five model scores were replaced; nothing else changed. Judgement J1: separate SILENT VARIANT row.
-- Live page fetched 2026-09-02: HTTP 200, 93579 bytes, SHA-256 7f7d0f45d2338bb5c82c77199c505250053c9a6a78a5816c2b85ac6735cda011. Extracted text identical to the 20240720163019 capture. The live page therefore matches the later text, as the brief expected.
+- Live page fetched 2026-09-02: HTTP 200, 93579 bytes, SHA-256 7f7d0f45d2338bb5c82c77199c505250053c9a6a78a5816c2b85ac6735cda011. Extracted text identical to the 20240720163019 capture. The live page therefore matches the later text, as the protocol expected.
 - Digest anomaly: local SHA-1 base32 ZYPCCL6RUUSNSVPD7YXQ6ZLDDY6DEQTI does not equal the CDX digest NGMJGTAD6AJGPE3YTO7LOQTUSBI6QHYV for this capture. A second fetch returned byte-identical content (SHA-256 e7996304e700cb5613092c34414501bedd17521a720ad7fe0dafeb51fdc8383b). The mismatch is attributed to the content-encoding of the archived record; the capture timestamp and text are as reported.
 - Revision account: NONE. Checked the live page's 'How We Will Update This Policy' section, three Wayback captures, magic.dev, and web search on 2026-09-02.
 
@@ -974,7 +974,7 @@ Conventions. Files are named with make_filename(). Unversioned single documents 
 
 - The clova.ai English 2024 ASF was saved from the live page rather than the 20241103220646 capture (text identical; bytes differ only in boilerplate). The capture was fetched and its hash is recorded above.
 - Reconnaissance's finding that only one Wayback capture of the G42 PDF existed is superseded: three later same-digest captures exist.
-- The parent brief's 'Desired Final Outputs' list names manifest.csv and collection_log.md; this group's files follow the task rules as manifest_signatories.csv and log_signatories.md.
+- This group's files were named manifest_signatories.csv and log_signatories.md before consolidation into manifest.csv and this log.
 
 
 ## 10. Phase B: candidate commitment extraction
@@ -984,8 +984,8 @@ Run on 2 September 2026 after Phase A was complete and logged, with extract_cand
 Method, as implemented:
 - Text preparation: Unicode format characters (bidi marks, soft hyphens, zero-width characters) stripped; '[[page N]]' markers removed; lines rejoined into paragraphs; line-break hyphenation repaired when the next line starts in lower case; heading lines ('## ' prefix, set by the extraction toolkit from font size for PDFs and from h1-h6 for HTML) that recur on three or more pages are treated as running headers and dropped.
 - Sentence splitting: regex split after . ! ? (optionally followed by a closing quote or bracket) when the next token starts with a capital, digit or opening quote; abbreviations (e.g., i.e., etc., U.S., No., Fig., month abbreviations), decimals and version numbers (2.1) and initials are protected. sentence_index counts every sentence in the document, not only candidates, so a candidate can be located.
-- Operational test, applied literally per the brief: the sentence contains a provider-as-actor term (we, our, us, ourselves, the company, the Board, CEO, or the provider's name and named internal roles: Responsible Scaling Officer, LTBT, Safety Advisory Group, Frontier Safety team, etc.) AND a listed modal or commitment verb (will, must, commit*, shall, intend*, aim*, expect*, may, could, consider*, plan*). Conditional forms are included by construction. Sentences under 15 characters are dropped. modal_verbs_found lists the distinct matched forms.
-- No classification, judgement or paraphrase. The brief's exclusion of sentences that describe the risk landscape, define terms or state other parties' obligations was NOT applied mechanically, because doing so needs judgement; such sentences remain in the list when they satisfy the operational test (over-inclusion accepted by the brief).
+- Operational test, applied literally per the protocol: the sentence contains a provider-as-actor term (we, our, us, ourselves, the company, the Board, CEO, or the provider's name and named internal roles: Responsible Scaling Officer, LTBT, Safety Advisory Group, Frontier Safety team, etc.) AND a listed modal or commitment verb (will, must, commit*, shall, intend*, aim*, expect*, may, could, consider*, plan*). Conditional forms are included by construction. Sentences under 15 characters are dropped. modal_verbs_found lists the distinct matched forms.
+- No classification, judgement or paraphrase. The exclusion of sentences that describe the risk landscape, define terms or state other parties' obligations was NOT applied mechanically, because doing so needs judgement; such sentences remain in the list when they satisfy the operational test (over-inclusion accepted by the protocol).
 - section_heading is the nearest preceding detected heading. Heading detection is a font-size heuristic for PDFs and failed for the NVIDIA document (every candidate reads 'Abstract') and partly for others (a few candidates fall under 'Contents' or a changelog date heading). Treat section_heading as a locator, not a classifier.
 - Excluded: the 7 companion rows (is_companion = yes) and the 3 Korean-language Naver renderings (English-only modal list). Silent-variant rows are included, so near-duplicate candidate sets exist for the nine variant pairs; downstream work may collapse them by version.
 

@@ -1,6 +1,6 @@
 # Second-coder instructions
 
-Thank you for doing this. It should take two to three hours. You are coding 50 units independently; I will not see your codes until you send them back, and you have not seen mine. Agreement between us is what the paper reports, so please do not look anything up beyond what is in this package, and do not consult me on individual units. If the codebook genuinely does not settle a case, pick the reading you find best and say why in `E_notes`.
+Thank you for doing this. You are coding 50 units independently. I will not see your codes until you send them back, and you have not seen mine. If two of you are coding, please work separately and do not compare answers. Agreement between us is what the paper reports, so please do not look anything up beyond what is in this package, and do not consult me on individual units. If the codebook genuinely does not settle a case, pick the reading you find best and say why in `E_notes`.
 
 ## What is in the package
 
@@ -25,4 +25,4 @@ Thank you for doing this. It should take two to three hours. You are coding 50 u
 
 ## Returning it
 
-Fill the five `E_` columns in the CSV and send the file back. No need to reformat or explain the ones you found easy. If you can, return by Saturday 5 September so we have Sunday to compute agreement and finish the draft.
+Fill the five `E_` columns in the CSV and send the file back. No need to reformat or explain the ones you found easy.

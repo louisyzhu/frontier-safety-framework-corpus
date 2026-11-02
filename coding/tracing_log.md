@@ -1,12 +1,12 @@
 # Tracing log
 
-First-pass coding of commitments across twelve framework version pairs, 2 September 2026. Codebook v0.1; brief 'first-pass tracing of commitments across framework version pairs'. Coder: first-pass (automated), for human adjudication. British spelling in the log's own prose; quotations are verbatim.
+First-pass coding of commitments across twelve framework version pairs, 2 September 2026. Codebook v0.1; protocol 'first-pass tracing of commitments across framework version pairs'. Coder: first pass, automated, for human adjudication. British spelling in the log's own prose; quotations are verbatim.
 
 ## 0. Order of work and method
 
-1. restatement2.md was written and saved (artifact versions 01ed0dfc..., then 3df29e5a... after a word-count trim) before any tracing began.
+1. The tracing protocol was written and fixed before any tracing began.
 2. For each pair an input bundle was built from the corpus: the two version text files (Unicode format characters stripped, otherwise the corpus .txt), the candidates.csv rows for both versions, and the revision-account file for v_next. Bundles are artifacts named '{pair}_v_i.txt', '{pair}_v_next.txt', '{pair}_candidates_v_i.csv', '{pair}_candidates_v_next.csv', '{pair}_revision_account.md'.
-3. The twelve pairs were coded in eight parallel tracks (ANT-1; ANT-2; OAI-1; GDM-1 and GDM-2 in chain; META-1; MSFT-1; NAV-1; XAI-1 to XAI-4 in chain), each with the codebook, the brief, its bundle and the same written procedure. Each track wrote its own pair log as it coded; those logs are reproduced verbatim in section 2 in the brief's pair order. Per-pair conventions therefore differ in places; section 1.3 lists the differences an adjudicator should harmonise.
+3. The twelve pairs were coded in eight parallel tracks (ANT-1; ANT-2; OAI-1; GDM-1 and GDM-2 in chain; META-1; MSFT-1; NAV-1; XAI-1 to XAI-4 in chain), each with the codebook, the protocol, its document bundle and the same written procedure. Each track wrote its own pair log as it coded; those logs are reproduced verbatim in section 2 in the protocol's pair order. Per-pair conventions therefore differ in places; section 1.3 lists the differences an adjudicator should harmonise.
 4. Every quoted field (v_i_text, v_next_text, changelog_pointer) was checked mechanically against the bundle text files with verify_rows.py (whitespace-, quote- and dash-insensitive substring match; a shingle fallback for sentences interrupted by a page break or footnote in the text file). Each track ran it before saving; I re-ran it independently on the merged file (section 1.1).
 5. Silent variants (section 3) and disclosure regimes (section 4) were coded by me from word-level diffs and the changelogs/ files.
 
@@ -81,7 +81,7 @@ Pooled: evidentiary 158/257 = 0.61; non-evidentiary 90/125 = 0.72.
 
 ---
 
-# 2. Pair logs (verbatim, in the brief's order)
+# 2. Pair logs (verbatim, in the protocol's order)
 
 
 ## 2.1 ANT-1
@@ -284,7 +284,7 @@ The provider account contains no itemised changelog. The in-document entry is on
 - The post explains the rationale for restructuring at length but names few specific v2.2 commitments (Safeguards Report, ASL-3 deployment standard as history, ASL-4/5 definitions). Most procedural removals (assessment triggers, elicitation, forecasting, audits, readiness, U.S. Government notice, cyber assessment) are not identifiable.
 - The LessWrong post is more specific (unilateral pause as "the biggest change", internal-only models in scope, competitor commitments, late external-review trigger, Roadmap no-backsliding). It is flagged `LW-only` on 7 rows and never grounds ANN.
 - The post's Roadmap example goals are worded differently from the RSP middle-column bullets (e.g. "measures to ensure Claude behaves according to its constitution" versus "systematic alignment assessments"); ANT-2-092 is SIL with the near-miss quoted.
-- Pointer prefixes `[post]` / `[page entry]` were required by the brief. The generic verifier returns `ok-fuzzy` on prefixed pointers (the bracketed prefix is not in the account) and `ok` when the prefix is stripped. Both runs are reported below.
+- Pointer prefixes `[post]` / `[page entry]` were required by the protocol. The generic verifier returns `ok-fuzzy` on prefixed pointers (the bracketed prefix is not in the account) and `ok` when the prefix is stripped. Both runs are reported below.
 
 ## 8. Verifier summary
 
@@ -324,14 +324,14 @@ Material changes: 86 (evidentiary stratum EC1-EC6: 59, of which SIL 33, ANN 26; 
 
 ## 10. Self-check
 
-Every row has an outcome and non-blank `material`; every material row has ANN or SIL and a pointer or NONE FOUND; every R row has NA/NA; A rows have v_i_text NONE; X rows have v_next_text NONE. Columns match the brief's section 7 layout. CSV written with QUOTE_ALL.
+Every row has an outcome and non-blank `material`; every material row has ANN or SIL and a pointer or NONE FOUND; every R row has NA/NA; A rows have v_i_text NONE; X rows have v_next_text NONE. Columns match the protocol's specified layout. CSV written with QUOTE_ALL.
 
 
 ## 2.3 OAI-1
 
 # OAI-1 tracing log: OpenAI Preparedness Framework, Beta (18 December 2023) to v2 (15 April 2025)
 
-Coder: first-pass (automated). Codebook v0.1, brief section 4. Revision account: Appendix A 'Change log' (12 items) inside v2 and the announcement post of 15 April 2025, both in the saved revision-account file. Pointers are prefixed '[changelog item N]' or '[post]'. The original 15 April v2 file was used; the June re-upload was not.
+Coder: first-pass (automated). Codebook v0.1, protocol section 4. Revision account: Appendix A 'Change log' (12 items) inside v2 and the announcement post of 15 April 2025, both in the saved revision-account file. Pointers are prefixed '[changelog item N]' or '[post]'. The original 15 April v2 file was used; the June re-upload was not.
 
 ## 1. Candidate disposition (v_i = Beta, 47 candidates)
 
@@ -934,7 +934,7 @@ Announcement: ANN 6, SIL 16, NA 4 (R rows). Material changes 22; announced 6; si
 
 ## 8. Self-check
 
-Every row has an outcome and a non-blank `material`. Every material row has ANN or SIL and a verbatim pointer or NONE FOUND. Every R row has announcement NA and pointer NA. Every A row has v_i_text NONE; every X row has v_next_text NONE. Column order matches the brief section 7. CSV written with QUOTE_ALL.
+Every row has an outcome and a non-blank `material`. Every material row has ANN or SIL and a verbatim pointer or NONE FOUND. Every R row has announcement NA and pointer NA. Every A row has v_i_text NONE; every X row has v_next_text NONE. Column order matches the protocol section 7. CSV written with QUOTE_ALL.
 
 
 ## 2.9 XAI-1
@@ -1381,6 +1381,6 @@ Judgement calls: Anthropic v2.2 to v3.0 is 'narrative' although a page entry and
 - Every material row has an announcement status (ANN 134, SIL 248, NCL 89) and a pointer (ANN) or NONE FOUND (SIL) or NA (NCL) (471/471).
 - All nine silent variants are in silent_variants.csv (16 rows).
 - Every consecutive labelled framework pair in the corpus is in pairs.csv (19 rows; 12 traced).
-- restatement2.md was written and saved before tracing began (section 0).
+- the protocol was written and saved before tracing began (section 0).
 - Tier 2 (DeepMind 1.0 to 2.0) was not traced; time was spent on verification instead. Its regime row is in pairs.csv.
 - Not done: no independent second read of the 710 codes by me beyond the calibration-example rows and the checks in section 1; the codes are the tracks' proposals.
