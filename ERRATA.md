@@ -5,7 +5,7 @@ Released versions:
 | Version | Date | DOI |
 |---|---|---|
 | v1.0 | 2026-09-09 | 10.5281/zenodo.22670701 |
-| v2.0 | 2026-11 | assigned by Zenodo on release; the concept DOI 10.5281/zenodo.22670700 always resolves to the latest version |
+| v2.0 | 2026-11-02 | 10.5281/zenodo.23883415 |
 
 Corrections to the corpus, codebook or coding are recorded here with the date, the affected row or file, and the reason. Version 2.0 moves the v1.0 coding sheet to `coding/archive/tracing_FINAL_v1.csv` unchanged; every statistic in the v2 paper is computed from `coding/tracing_FINAL_v3.csv`.
 
